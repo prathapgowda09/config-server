@@ -1,0 +1,12 @@
+db:
+  url: http://github.com:3306
+  host: github-host
+  port: 3306
+  
+  
+my:
+  greeting: Hello World greeting come from github repo
+  
+spring:
+  config:
+    import: "optional:configserver:http://localhost:8888"
